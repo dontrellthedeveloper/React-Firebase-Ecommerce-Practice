@@ -1,5 +1,5 @@
 .header {
-  height: 70px;
+  height: 80px;
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -8,6 +8,9 @@
   top: 0;
   z-index: 1000;
   background-color: white;
+  padding: 20px 80px;
+  box-shadow: 0 4px 2px -2px gray;
+
 
   .logo-container {
     height: 100%;
@@ -27,4 +30,8 @@
       cursor: pointer;
     }
   }
+}
+
+.logo {
+  //padding-bottom: 7px;
 }
