@@ -6,14 +6,14 @@ const StripeCheckoutButton = ({price}) => {
   const publishableKey = 'pk_test_51IiZmvJJnrCDMTtdotQgiJcV9JuZN0wZvE1Opgbr3R42nBTXanvUb7sKBFNfh69pTxxAb8evuBmzonVDImLPTXTJ00gWA31BZp';
 
   const onToken = token => {
-      console.log(token)
+      console.log(token);
       alert('Payment Successful')
   };
 
     return (
         <StripeCheckout
             label='Pay Now'
-            name='CRNN Clothing Ltd'
+            name='CRWN Clothing Ltd'
             billingAddress
             shippingAddress
             image
