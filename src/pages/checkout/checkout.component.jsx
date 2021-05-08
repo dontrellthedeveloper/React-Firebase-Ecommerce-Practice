@@ -8,7 +8,7 @@ import CheckoutItem from '../../components/checkout-item/checkout-item.component
 import {
     selectCartItems,
     selectCartTotal
-} from '../../redux/cart/cart.selectors';
+} from '../../redux/cart/cart.selector';
 
 import {
     CheckoutPageContainer,

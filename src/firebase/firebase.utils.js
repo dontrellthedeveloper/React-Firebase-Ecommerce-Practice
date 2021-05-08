@@ -44,6 +44,10 @@ if (!firebase.apps.length) {
     firebase.app(); // if already initialized, use that one
 }
 
+export const addCollectionAndDocuments = (collectionKey, objectsToAdd) => {
+  const collectionRef = firestore.collection(collectionKey);
+  console.log(collectionRef);
+};
 
 export const auth = firebase.auth();
 export const firestore = firebase.firestore();
